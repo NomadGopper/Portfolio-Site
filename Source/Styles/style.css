@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik&display=swap);
+
+body {
+  font-family: Rubik, sans-serif;
+  background: radial-gradient(#5c5c5c 0%, #000000 100%) !important;
+  margin: 0;
+  padding: 0;
+  color: #343333;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #039aff;
+}
+
+.navbar {
+  background: linear-gradient(0deg, #00000089 0%, #ffea00 37%);
+}
+
+.navbar .nav-link {
+  font-family: Rubik, sans-serif;
+  color: #039aff;
+}
+
+.navbar .nav-link.myactive {
+  color: #ff1f06;
+}
+
+.main-container {
+  color: #039aff;
+  width: 100%;
+  margin: 0;
+}
+
+.footer {
+  color: #039aff;
+  background-color: #343333;
+  width: 100%;
+  padding: 1em;
+}
+
+.first-container p {
+  padding-right: 12em;
+}
+
+.footer {
+  width: 100%;
+  margin-top: auto;
+}
+
+.media-links {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.row {
+  margin: 1em;
+}
